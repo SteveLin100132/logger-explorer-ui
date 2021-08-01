@@ -1,0 +1,10 @@
+<div class="row-logger-container" *ngIf="visible">
+  <nz-tag
+    class="logger-type-tag"
+    [nzColor]="tagMap.get(loggerType)?.color"
+  >
+    <em nz-icon [nzType]="tagMap.get(loggerType)?.icon || 'close-circle'"></em>
+    <span>{{ loggerType }}</span>
+  </nz-tag>
+  <code class="logger" [innerHtml]="viewedLogger"></code>
+</div>

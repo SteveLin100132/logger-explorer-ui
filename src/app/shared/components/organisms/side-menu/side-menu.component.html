@@ -1,0 +1,36 @@
+<div class="side-menu-container">
+  <div class="menu-group">
+    <div class="menu-item" *ngFor="let item of menu; let index = index;">
+      <div class="progress-bar">
+        <app-progress-mask [progress]="progress[index]"></app-progress-mask>
+      </div>
+      <div class="file-name">
+        <div class="corner left-top-corner"></div>
+        <div class="corner left-bottom-corner"></div>
+        <div class="corner right-top-corner"></div>
+        <div class="corner right-bottom-corner"></div>
+        <div
+          class="hint"
+          [ngClass]="{'loaded-complete': files[index] !== ''}"
+        >
+        </div>
+        <div class="name">
+          <p class="caption">File Name</p>
+          <p class="title">{{ item }}</p>
+        </div>
+      </div>
+      <div class="icon-group">
+        <app-tech-block class="icon-block" (click)="onDownloaded(item, index)">
+          <div class="icon-outer">
+            <em nz-icon nzType="download"></em>
+          </div>
+        </app-tech-block>
+        <app-tech-block class="icon-block" (click)="onExported(index)">
+          <div class="icon-outer">
+            <em nz-icon nzType="file"></em>
+          </div>
+        </app-tech-block>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,52 @@
+@import "./../../../../../assets/styles/themes/dark.less";
+
+.tech-panel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .corner {
+    width: 20px;
+    height: 10px;
+    z-index: 1;
+    position: absolute;
+  }
+
+  .left-top-corner {
+    top: 0px;
+    left: 0px;
+    border-top: 2px solid @border-color-split;
+    border-left: 2px solid @border-color-split;
+  }
+
+  .left-bottom-corner {
+    left: 0px;
+    bottom: 0px;
+    border-left: 2px solid @border-color-split;
+    border-bottom: 2px solid @border-color-split;
+  }
+
+  .right-top-corner {
+    top: 0px;
+    right: 0px;
+    border-top: 2px solid @border-color-split;
+    border-right: 2px solid @border-color-split;
+  }
+
+  .right-bottom-corner {
+    right: 0px;
+    bottom: 0px;
+    border-right: 2px solid @border-color-split;
+    border-bottom: 2px solid @border-color-split;
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: relative;
+    // border-top: 1px solid @border-color-base;
+    // border-bottom: 1px solid @border-color-base;
+    border: 1px solid @border-color-base;
+  }
+}

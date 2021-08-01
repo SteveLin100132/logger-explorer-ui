@@ -1,0 +1,190 @@
+[2021-05-20T08:35:45.404] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wok","_id":"1621353600000.F741.cims.cost_dl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F741.cims.cost_dl","index":"benefit_value_exception_2021.5","type":"wok","body":{"doc":{"exception":0,"exception_value":null,"modified_value":1,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.412] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.WKS-COMMON.cgms.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.WKS-COMMON.cgms.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0.5,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.416] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wmy","_id":"1621353600000.F7B1.ism.time_examination","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F7B1.ism.time_examination","index":"benefit_value_exception_2021.5","type":"wmy","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0.47999998927116394,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.406] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.rmm.equipment_maintenanc","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.rmm.equipment_maintenanc","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.406] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wok","_id":"1621353600000.F741.pascs.cost_dl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F741.pascs.cost_dl","index":"benefit_value_exception_2021.5","type":"wok","body":{"doc":{"exception":0,"exception_value":null,"modified_value":1,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.407] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.mtvac.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.mtvac.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.408] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.WKS-COMMON.llm.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.WKS-COMMON.llm.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":2,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.513] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.psappm.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.psappm.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0.23800000548362732,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.517] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F237.faoms.cost_idl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F237.faoms.cost_idl","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.518] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.WKS-COMMON.fems.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.WKS-COMMON.fems.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":1,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.519] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wzs","_id":"1621353600000.F139.mtvac.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F139.mtvac.time_inspection","index":"benefit_value_exception_2021.5","type":"wzs","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.520] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.WKS-COMMON.wegm.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.WKS-COMMON.wegm.time_inspection","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":1,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.534] [DEBUG] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wok","_id":"1621353600000.F741.mdais.cost_dl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F741.mdais.cost_dl","index":"benefit_value_exception_2021.5","type":"wok","body":{"doc":{"exception":0,"exception_value":null,"modified_value":6,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.616] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.smtcnc.report_time","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.smtcnc.report_time","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":181,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.617] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wzs","_id":"1621353600000.WSD-COMMON.opm.cost_idl_wzs","_version":4,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.WSD-COMMON.opm.cost_idl_wzs","index":"benefit_value_exception_2021.5","type":"wzs","body":{"doc":{"exception":0,"exception_value":null,"modified_value":285.19000244140625,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.619] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.psarc.operation_time","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.psarc.operation_time","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.621] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F237.esd.problem_solving","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F237.esd.problem_solving","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.890] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F237.autopicking.cost_dl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F237.autopicking.cost_dl","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.896] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wks","_id":"1621353600000.F232.towerwh.report_time","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F232.towerwh.report_time","index":"benefit_value_exception_2021.5","type":"wks","body":{"doc":{"exception":0,"exception_value":null,"modified_value":0,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.961] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wok","_id":"1621353600000.F741.iws.time_inspection","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F741.iws.time_inspection","index":"benefit_value_exception_2021.5","type":"wok","body":{"doc":{"exception":0,"exception_value":null,"modified_value":2,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T08:35:45.967] [TRACE] [UPDATE.VALUE] - {
+  response: '{"_index":"benefit_value_exception_2021.5","_type":"wok","_id":"1621353600000.F741.tdais.cost_dl","_version":6,"result":"noop","_shards":{"total":0,"successful":0,"failed":0}}',
+  payload: '{"id":"1621353600000.F741.tdais.cost_dl","index":"benefit_value_exception_2021.5","type":"wok","body":{"doc":{"exception":0,"exception_value":null,"modified_value":2,"status":1},"doc_as_upsert":true}}'
+}
+[2021-05-20T09:11:08.818] [INFO] [INIT.PROGRAM] - start process exception
+[2021-05-20T09:11:08.872] [INFO] [INIT.VALUE] - start process exception
+[2021-05-20T09:11:11.355] [ERROR] [INIT.VALUE] - StatusCodeError: [invalid_type_name_exception] Document mapping type name can't start with '_', found: [_doc]
+    at respond (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:349:15)
+    at checkRespForFailure (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:306:7)
+    at HttpConnector.<anonymous> (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\connectors\http.js:173:7)
+    at IncomingMessage.wrapper (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\lodash\lodash.js:4991:19)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 400,
+  displayName: 'BadRequest',
+  path: '/benefit_value_exception_2021.5/_doc/1621353600000.F741.ud.cost_idl/_update',
+  query: {},
+  body: {
+    error: {
+      root_cause: [Array],
+      type: 'invalid_type_name_exception',
+      reason: "Document mapping type name can't start with '_', found: [_doc]"
+    },
+    status: 400
+  },
+  statusCode: 400,
+  response: `{"error":{"root_cause":[{"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"}],"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"},"status":400}`,
+  toString: [Function],
+  toJSON: [Function]
+}
+[2021-05-20T09:11:11.366] [ERROR] [INIT.VALUE] - StatusCodeError: [invalid_type_name_exception] Document mapping type name can't start with '_', found: [_doc]
+    at respond (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:349:15)
+    at checkRespForFailure (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:306:7)
+    at HttpConnector.<anonymous> (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\connectors\http.js:173:7)
+    at IncomingMessage.wrapper (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\lodash\lodash.js:4991:19)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 400,
+  displayName: 'BadRequest',
+  path: '/benefit_value_exception_2021.5/_doc/1621353600000.F232.rmm.report_time/_update',
+  query: {},
+  body: {
+    error: {
+      root_cause: [Array],
+      type: 'invalid_type_name_exception',
+      reason: "Document mapping type name can't start with '_', found: [_doc]"
+    },
+    status: 400
+  },
+  statusCode: 400,
+  response: `{"error":{"root_cause":[{"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"}],"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"},"status":400}`,
+  toString: [Function],
+  toJSON: [Function]
+}
+[2021-05-20T09:11:11.375] [ERROR] [INIT.VALUE] - StatusCodeError: [invalid_type_name_exception] Document mapping type name can't start with '_', found: [_doc]
+    at respond (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:349:15)
+    at checkRespForFailure (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:306:7)
+    at HttpConnector.<anonymous> (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\connectors\http.js:173:7)
+    at IncomingMessage.wrapper (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\lodash\lodash.js:4991:19)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 400,
+  displayName: 'BadRequest',
+  path: '/benefit_value_exception_2021.5/_doc/1621353600000.F236.autopicking.cost_dl/_update',
+  query: {},
+  body: {
+    error: {
+      root_cause: [Array],
+      type: 'invalid_type_name_exception',
+      reason: "Document mapping type name can't start with '_', found: [_doc]"
+    },
+    status: 400
+  },
+  statusCode: 400,
+  response: `{"error":{"root_cause":[{"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"}],"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"},"status":400}`,
+  toString: [Function],
+  toJSON: [Function]
+}
+[2021-05-20T09:11:11.515] [ERROR] [INIT.VALUE] - StatusCodeError: [invalid_type_name_exception] Document mapping type name can't start with '_', found: [_doc]
+    at respond (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:349:15)
+    at checkRespForFailure (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\transport.js:306:7)
+    at HttpConnector.<anonymous> (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\elasticsearch\src\lib\connectors\http.js:173:7)
+    at IncomingMessage.wrapper (D:\007-Programming\Project\Benefit2.0\benefit-monitor-job\node_modules\lodash\lodash.js:4991:19)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 400,
+  displayName: 'BadRequest',
+  path: '/benefit_value_exception_2021.5/_doc/1621353600000.WSD-COMMON.opm.cost_idl_wok/_update',
+  query: {},
+  body: {
+    error: {
+      root_cause: [Array],
+      type: 'invalid_type_name_exception',
+      reason: "Document mapping type name can't start with '_', found: [_doc]"
+    },
+    status: 400
+  },
+  statusCode: 400,
+  response: `{"error":{"root_cause":[{"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"}],"type":"invalid_type_name_exception","reason":"Document mapping type name can't start with '_', found: [_doc]"},"status":400}`,
+  toString: [Function],
+  toJSON: [Function]
+}

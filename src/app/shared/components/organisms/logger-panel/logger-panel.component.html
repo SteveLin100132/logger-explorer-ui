@@ -1,0 +1,9 @@
+<div class="logger-panel-container">
+  <app-row-logger
+    class="row-logger"
+    *ngFor="let item of logger; let index = index;"
+    [logger]="item"
+    [highlight]="highlight"
+  >
+  </app-row-logger>
+</div>

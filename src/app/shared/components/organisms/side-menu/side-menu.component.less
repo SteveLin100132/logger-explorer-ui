@@ -1,0 +1,132 @@
+@import "./../../../../../assets/styles/themes/dark.less";
+
+.side-menu-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: auto;
+  max-height: calc(100vh - @padding-sm);
+  padding: @padding-sm;
+
+  .menu-group {
+    .menu-item {
+      height: 70px;
+      width: 100%;
+      padding: @padding-xs @padding-md;
+      margin-bottom: @margin-sm;
+      position: relative;
+      align-items: center;
+      border-top: 1px dashed @border-color-base;
+      border-left: 1px solid @border-color-base;
+      border-right: 1px solid @border-color-base;
+      border-bottom: 1px dashed @border-color-base;
+      background-color: rgba(200, 200, 200, 0);
+      transition-duration: 300ms;
+
+      &:hover {
+        background-color: rgba(167, 167, 167, 0.2);
+      }
+
+      .file-name {
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: center;
+
+        .corner {
+          width: 10px;
+          height: 6px;
+          z-index: 1;
+          position: absolute;
+        }
+
+        .left-top-corner {
+          top: 0px;
+          left: -1px;
+          border-top: 2px solid @border-color-split;
+          border-left: 2px solid @border-color-split;
+        }
+
+        .left-bottom-corner {
+          left: -1px;
+          bottom: 0px;
+          border-left: 2px solid @border-color-split;
+          border-bottom: 2px solid @border-color-split;
+        }
+
+        .right-top-corner {
+          top: 0px;
+          right: -1px;
+          border-top: 2px solid @border-color-split;
+          border-right: 2px solid @border-color-split;
+        }
+
+        .right-bottom-corner {
+          right: -1px;
+          bottom: 0px;
+          border-right: 2px solid @border-color-split;
+          border-bottom: 2px solid @border-color-split;
+        }
+
+        .hint {
+          height: 80%;
+          width: 10px;
+          margin-right: @margin-sm;
+          border: 1px solid @border-color-base;
+          background-color: rgba(200, 200, 200, 0.3);
+        }
+
+        .loaded-complete {
+          background-color: rgba(0, 176, 80, 0.7);
+        }
+
+        .name {
+          .caption {
+            color: @text-color-secondary;
+            font-size: 12px;
+          }
+
+          .title {
+            letter-spacing: -1px;
+          }
+
+          .caption,
+          .title {
+            margin: @margin-xss 0;
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+          }
+        }
+      }
+
+      .icon-group {
+        height: 100%;
+        float: right;
+        display: flex;
+        align-items: center;
+
+        .icon-block {
+          margin-right: @margin-xs;
+          height: 40px;
+          width: 32px;
+          display: block;
+
+          &:last-child {
+            margin-right: 0;
+          }
+
+          .icon-outer {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 38px;
+
+            .icon {
+              color: #ddd;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

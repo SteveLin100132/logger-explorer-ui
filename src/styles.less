@@ -1,1 +1,56 @@
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+@import '../node_modules/ng-zorro-antd/ng-zorro-antd.less';
+@import './assets/styles/themes/dark.less';
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+// @primary-color: #1890ff;
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
+    monospace;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #080808;
+  // background-color: #0a1214;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  border: 1px solid @border-color-split;
+  background-color: @border-color-base;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  border: 1px solid @border-color-split;
+  background: @border-color-base;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}

@@ -1,0 +1,97 @@
+@import "./../../../assets/styles/themes/dark.less";
+@import "./../../../assets/styles/components/side-menu.less";
+
+@analysis-chart-panel-height: 200px;
+@logger-panel-hiehgt: 500px;
+.explorer-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .explorer-loading-mask {
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .explorer-inner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    padding: 10px;
+    grid-template-rows: @analysis-chart-panel-height @logger-panel-hiehgt 1fr;
+    grid-row-gap: 10px;
+    .panel {
+      width: 100%;
+      height: 100%;
+    }
+
+    .analysis-chart-panel {
+      width: 100%;
+      height: 100%;
+
+      .chart-panel {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .logger-panel {
+      .scroll-panel {
+        width: 100%;
+        max-width: calc(100vw - @side-menu-width);
+        height: 100%;
+        max-height: @logger-panel-hiehgt;
+      }
+    }
+
+    .search-panel {
+      height: 100%;
+
+      .inner {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr 50px;
+
+        .search-scroll-panel {
+          display: block;
+          width: 100%;
+          max-width: calc(100vw - @side-menu-width);
+          height: 100%;
+          max-height: calc(
+            100vh - @analysis-chart-panel-height - @logger-panel-hiehgt - 50px *
+              2
+          );
+        }
+
+        .keyword-panel {
+          padding: 0 10px;
+
+          .keyword {
+            &:hover,
+            &:focus {
+              border: 1px solid @border-color-split;
+            }
+          }
+        }
+      }
+    }
+
+    .scroll-panel,
+    .search-scroll-panel {
+      position: relative;
+      overflow-y: auto;
+      // background-image: linear-gradient(#99999922 0.1em, transparent 0.1em),
+      //   linear-gradient(90deg, #99999922 0.1em, transparent 0.1em);
+      // background-size: 10px 10px;
+
+      .logger {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+}

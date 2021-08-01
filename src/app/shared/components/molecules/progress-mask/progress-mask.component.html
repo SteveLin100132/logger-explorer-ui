@@ -1,0 +1,8 @@
+<div class="progress-mask" *ngIf="visible">
+  <app-progress
+    class="progress"
+    [progress]="progress"
+    (completed)="visible = false"
+  >
+  </app-progress>
+</div>

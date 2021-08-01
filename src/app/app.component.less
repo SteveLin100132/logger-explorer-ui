@@ -1,0 +1,19 @@
+@import "./../assets/styles/themes/dark.less";
+@import "./../assets/styles/components/side-menu.less";
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr;
+
+  .content {
+    display: grid;
+    grid-template-columns: @side-menu-width 1fr;
+
+    .sidebar {
+      border-right: 1px solid @border-color-base;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "./../../../../../assets/styles/themes/dark.less";
+
+.wrap {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height: 30px;
+
+  .progress-wrap {
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 100%;
+    display: block;
+    position: absolute;
+    border: 1px solid #aaa;
+
+    .progress {
+      width: 0;
+      height: 25px;
+      margin: 0;
+      display: inline-block;
+      padding-top: 18px;
+      background-color: #66666655;
+      position: absolute;
+      text-align: center;
+      background-size: 45px 45px;
+      background-image: linear-gradient(
+        135deg,
+        rgba(200, 200, 200, 0.15) 25%,
+        transparent 25%,
+        transparent 50%,
+        rgba(200, 200, 200, 0.15) 50%,
+        rgba(200, 200, 200, 0.15) 75%,
+        transparent 75%,
+        transparent
+      );
+      animation: animate-bars 3s linear infinite;
+      transition-duration: 500ms;
+    }
+  }
+}
+
+@keyframes animate-bars {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 260px 0px;
+  }
+}

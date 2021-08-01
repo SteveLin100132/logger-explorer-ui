@@ -1,0 +1,108 @@
+@import "./../../../../../assets/styles/themes/dark.less";
+
+.row-logger-container {
+  width: 100%;
+  padding: @padding-xs @padding-md;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 100px 1fr;
+  background-color: rgba(200, 200, 200, 0);
+  transition-duration: 300ms;
+
+  &:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+  }
+
+  .logger-type-tag {
+    width: 80px;
+  }
+
+  .logger {
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+
+    ::ng-deep .dark,
+    ::ng-deep .light,
+    ::ng-deep .blue,
+    ::ng-deep .purple,
+    ::ng-deep .cyan,
+    ::ng-deep .green,
+    ::ng-deep .magenta,
+    ::ng-deep .pink,
+    ::ng-deep .red,
+    ::ng-deep .orange,
+    ::ng-deep .yellow,
+    ::ng-deep .volcano,
+    ::ng-deep .geekblue,
+    ::ng-deep .lime,
+    ::ng-deep .gold {
+      width: 100%;
+      overflow-wrap: break-word;
+    }
+
+    ::ng-deep .dark {
+      color: #777;
+    }
+
+    ::ng-deep .light {
+      color: #eee;
+    }
+
+    ::ng-deep .blue {
+      color: @blue-base;
+    }
+
+    ::ng-deep .purple {
+      color: @purple-base;
+    }
+
+    ::ng-deep .cyan {
+      color: @cyan-base;
+    }
+
+    ::ng-deep .green {
+      color: @green-base;
+    }
+
+    ::ng-deep .magenta {
+      color: @magenta-base;
+    }
+
+    ::ng-deep .pink {
+      color: @pink-base;
+    }
+
+    ::ng-deep .red {
+      color: @red-base;
+    }
+
+    ::ng-deep .orange {
+      color: @orange-base;
+    }
+
+    ::ng-deep .yellow {
+      color: @yellow-base;
+    }
+
+    ::ng-deep .volcano {
+      color: @volcano-base;
+    }
+
+    ::ng-deep .geekblue {
+      color: @geekblue-base;
+    }
+
+    ::ng-deep .lime {
+      color: @lime-base;
+    }
+
+    ::ng-deep .gold {
+      color: @gold-base;
+    }
+
+    ::ng-deep .highlight {
+      background-color: rgba(250, 219, 21, 0.6);
+    }
+  }
+}

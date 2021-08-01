@@ -1,0 +1,47 @@
+<div class="explorer-container">
+  <div class="explorer-loading-mask" *ngIf="loading">
+    <app-loading-mask [visible]="loading"></app-loading-mask>
+  </div>
+  <div class="explorer-inner">
+    <div class="panel analysis-chart-panel">
+      <app-tech-panel >
+        <div class="chart-panel">
+          <app-logger-statistic-chart
+            [logger]="logger"
+            (clicked)="scrollTo($event.name)"
+          >
+          </app-logger-statistic-chart>
+        </div>
+      </app-tech-panel>
+    </div>
+    <div class="panel logger-panel">
+      <app-tech-panel>
+        <div class="scroll-panel">
+          <app-logger-panel class="logger" [logger]="logger"></app-logger-panel>
+        </div>
+      </app-tech-panel>
+    </div>
+    <div class="panel search-panel">
+      <app-tech-panel>
+        <div class="inner">
+          <div class="search-scroll-panel">
+            <app-logger-panel
+              class="search-result"
+              [logger]="fileredLogger"
+              [highlight]="highlight"
+            >
+            </app-logger-panel>
+          </div>
+          <div class="keyword-panel">
+            <input
+              #keywordInput
+              class="keyword"
+              nz-input
+              placeholder="Search"
+              [(ngModel)]="keyword" />
+          </div>
+        </div>
+      </app-tech-panel>
+    </div>
+  </div>
+</div>
